@@ -1,0 +1,62 @@
+.genre-box{
+    border-radius: var(--border-radius);
+    border-color: rgb(79, 79, 79);
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+}
+
+.genre-img{
+    width: 40%;
+    position: relative;
+}
+
+.genre-img h6{
+    position: absolute;
+    text-align: end;
+    font-size: 80px;
+    bottom: 0;
+    right: 20px;
+    line-height: 1;
+    width: 100%;
+    font-family: 'Kunstler Script', cursive;
+    font-weight: 500;
+}
+
+.genre-header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: linear-gradient(20deg, var(--color-alternative-dark), #211212, #570606);
+    border-radius: var(--border-radius);;
+}
+
+.genre-header h3{
+    font-size: 100px;
+    line-height: 1;
+}
+
+.genre-header h4{
+    font-size: 20px;
+    padding-left: 4px;
+    line-height: 1;
+}
+
+.genre-header p{
+    font-size: 16px;
+    padding-left: 4px;
+    line-height: 1;
+    justify-content: flex-end;
+}
+
+.performers{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.performers-item{
+    font-size: 18px;
+}
